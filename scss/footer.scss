@@ -1,0 +1,76 @@
+
+footer {
+    font-family: GillSans;
+    font-weight: bold;
+    height: 445px;
+    background-color: #ee4367;
+
+    .signup {
+        justify-content: center;
+       gap: 0;
+        margin-top: 20px;
+        display: flex;
+        height: 60px;
+        
+      
+        input {
+height: 100%;
+width: 529px;
+background-color: #f56b88;
+border: none;
+color: rgba(238, 67, 103, 1)
+;
+font-size: 16px;
+padding-left:15px;
+        }
+
+        ::placeholder {
+            color:rgba(255, 255, 255,.5) ;
+            opacity: 1;
+        }
+      
+        .button {
+            height: 100%;
+            width:167px;
+            background-color: white;
+            text-align: center;
+            padding-top: 20px;
+            color: #ee4367;
+        }
+
+
+
+
+
+    }
+
+
+   
+}
+    
+ .pics {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+
+    img {
+      width: 40px;
+      height: auto;
+    }
+  }
+
+    .rights {
+        color:rgba(255, 255, 255,.5) ;
+          text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 20px;
+    }
+@media only all and (max-width: 980px) 
+{
+ footer {
+   padding: 0 30px;
+ }
+
+}

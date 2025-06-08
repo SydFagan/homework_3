@@ -1,0 +1,53 @@
+.hero {
+    font-family: GillSans;
+    font-weight: bold;
+    background-image:linear-gradient(to bottom, rgba(255,209,64,.5),rgba(255,209,64,.5)),url(../images/home-hero.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat:no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   
+
+   .centered-content
+{
+    color: white;
+    width: 300px;
+   
+    text-align: center;
+    
+
+    h3 {
+        color: #EE4367;
+    }
+
+}
+
+.lower {
+  margin-top: 20px;
+    font-size: 20px;
+}
+
+
+
+.read {
+   background-color: #EE4367;
+   width: 120px;
+   height: 40px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+ 
+  
+}
+}
+
+@media only all and (max-width: 980px) {
+    .hero {
+         padding: 0 30px;
+    }
+}

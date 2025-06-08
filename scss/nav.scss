@@ -1,0 +1,73 @@
+
+.nav {
+    font-family: GillSans;
+    width: 980px;
+    height: 90px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,0);
+    border-bottom: solid 2px white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-weight: bold;
+
+
+.logo {
+    font-family: GillSans;
+position: relative;
+width: 92px;
+height:42px;
+border: solid 2px white;
+
+}
+
+.title {
+ position: absolute;
+    bottom: -9px;
+    left: 50%;
+    color: white;
+    font-size: 35px;
+    margin-left: 8px;
+transform:translateX(-50%) ;
+
+}
+}
+
+
+.links {
+    font-family: GillSans;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+
+
+
+a {
+    font-family: GillSans;
+    text-decoration: none;
+    color: white;
+
+}
+
+ span {
+    font-family: GillSans;
+        color:#EE4367;
+    }
+
+}
+
+
+@media only all and (max-width: 980px) {
+ 
+    .nav {
+        padding: 0 30px;
+
+.links {
+    display: none;
+}
+
+    }
+  
+}
+

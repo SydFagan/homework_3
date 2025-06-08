@@ -1,0 +1,73 @@
+.info {
+
+
+font-family: GillSans;
+flex-direction: column;
+text-align: center;
+gap: 10px;
+    background-color: #ee4367;
+    height:250px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+.logo2 {
+position: relative;
+width: 92px;
+height:42px;
+border: solid 2px white;
+font-weight: bold;
+font-size: 26px;
+
+span {position: absolute;
+    bottom: -9px;
+    left: 50%;
+    color: white;
+    font-size: 35px;
+    margin-left: 8px;
+transform:translateX(-50%) ;}
+
+}
+ 
+    
+
+
+
+.location {
+    margin-top: 20px;
+color: white;
+font-weight: bold;
+
+}
+
+.number {
+color: white;
+font-weight: bold;
+}
+
+
+
+.email {
+font-weight: bold;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only all and (max-width: 980px) {
+    .info  {padding: 0 30px;}
+}
